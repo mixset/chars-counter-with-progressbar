@@ -1,0 +1,87 @@
+* {
+    margin: 0 auto;
+    padding: auto;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    margin: 0 auto;
+    width: 960px;
+}
+
+header {
+    border-bottom: 1px ridge grey;
+    width: 960px;
+    height: 100px;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+header h1 a {
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: black;
+}
+
+section {
+    margin-top: 30px;
+}
+
+.left-sidebar {
+    width: 400px;
+    float: left;
+    border-right: 1px solid grey;
+}
+
+.left-sidebar h2 {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.left-sidebar p {
+    text-indent: 1cm;
+}
+
+.left-sidebar p:first-letter {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.right-sidebar {
+    width: 500px;
+    float: right;
+}
+
+.right-sidebar .progressbar {
+    height: 4px;
+    width: 400px;
+    border: 1px solid grey;
+}
+
+.right-sidebar .bar {
+    width: 0;
+    float: left;
+    height: 4px;
+}
+
+.right-sidebar form {
+    margin-top: 50px;
+}
+
+.right-sidebar .counter {
+    display: inline-block;
+}
+
+.right-sidebar .count {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666666
+}
