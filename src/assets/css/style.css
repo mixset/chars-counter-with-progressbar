@@ -73,7 +73,7 @@ section {
 }
 
 .right-sidebar form {
-    margin-top: 50px;
+    margin: 50px 0 0 80px;
 }
 
 .right-sidebar .counter {

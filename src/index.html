@@ -2,9 +2,8 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <link href="style.css" rel="stylesheet">
-    <meta name="description"
-          content="Plik demonstracyjny pokazujący progressbar w zalezności od ilości wpisanych znakow">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <meta name="description" content="Plik demonstracyjny pokazujący progressbar w zalezności od ilości wpisanych znakow">
     <meta name="author" content="Dominik Ryńko">
     <title>Plik demonstracyjny skryptu</title>
 </head>
@@ -42,14 +41,16 @@
         <form action="#" method="POST" class="form">
             <dl>
                 <dt><label for="textarea">Pole tekstowe</label></dt>
-                <dd><textarea id="textarea" rows="3" placeholder="Wpisz komentarz" maxlength="160"></textarea></dd>
+                <dd><textarea id="textarea" rows="5" cols="40" placeholder="Wpisz komentarz" maxlength="160"></textarea>
+                </dd>
                 <dd>Masz jeszcze <p class="count">160</p> znaków</dd>
                 <dt><input type="submit" value="Wyślij"></dt>
             </dl>
         </form>
     </div>
 </section>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="script.js"></script>
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
